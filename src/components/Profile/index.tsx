@@ -10,7 +10,7 @@ export function Profile() {
             <View >
                 <View style={styles.user}>
                     <Text style={styles.greeting}>
-                        ola
+                        ola,
                     </Text>
                     <Text style={styles.username}>
                             Adelmo
