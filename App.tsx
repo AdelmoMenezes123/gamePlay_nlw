@@ -6,6 +6,7 @@ import { Inter_400Regular, Inter_500Medium } from "@expo-google-fonts/inter";
 import { Rajdhani_500Medium, Rajdhani_700Bold } from "@expo-google-fonts/rajdhani";
 
 import { SignIn } from "./src/screens/SignIn";
+import { Home } from "./src/screens/Home";
 import {Background} from './src/components/background'
 import AppLoad from "expo-app-loading";
 
@@ -27,7 +28,8 @@ export default function App() {
                 backgroundColor="transparent"
                 translucent
             />
-            <SignIn />
+            <Home />
+            {/* <SignIn /> */}
         </Background>
     )
 }
