@@ -27,17 +27,19 @@ export function SignIn() {
 
             <View style={styles.content}>
                 <Text style={styles.title}>
-                    Organize{`\n`}
+                    Conecte-se{`\n`}
+                    e organize{`\n`}
                     suas jogatinas{`\n`}
-                    facilmente
                 </Text>
 
                 <Text style={styles.subtitle}>
                     Crie grupos  para jogar seus games{`\n`}
                     favoritos com seus amigos
                 </Text>
-                <ButtonIcon title="Entrar com D" 
-                activeOpacity={0.7}/>
+                <ButtonIcon
+                    title="Entrar com Discord"
+                    activeOpacity={0.7}
+                />
             </View>
         </View>
 
