@@ -14,9 +14,9 @@ export const styles = StyleSheet.create({
         width: 100,
         height: 116,
         backgroundColor: theme.colors.secondary40,
+        borderRadius: 8,
         justifyContent: 'space-between',
         alignItems: 'center',
-        borderRadius: 8,
         paddingVertical: 7
     },
     title: {

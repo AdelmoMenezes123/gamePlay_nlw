@@ -22,15 +22,15 @@ export function CategorySelect({
         >
 
             {
-                categories.map(category => {
+                categories.map(category => (
                     <Category
-                        key={category.id}
-                        title={category.title}
-                        icon={category.icon}
-                        checked={category.id === categorySelected}
-                        onPress={() => setCategory(category.id)}
+                    key={category.id}
+                    title={category.title}
+                    icon={category.icon}
+                    checked={category.id === categorySelected}
+                    onPress={() => setCategory(category.id)}
                     />
-                })
+                ))
             }
         </ScrollView>
 
