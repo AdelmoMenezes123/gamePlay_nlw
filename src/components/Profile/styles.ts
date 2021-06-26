@@ -4,8 +4,8 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        alignItems:'center',
-         
+        alignItems: 'center',
+        marginBottom:50
     },
     user: {
         flexDirection: 'row'
@@ -20,9 +20,9 @@ export const styles = StyleSheet.create({
         fontFamily: theme.fonts.title700,
         fontSize: 24,
         color: theme.colors.heading,
-        marginTop:4
+        marginTop: 4
     },
-    message:{
+    message: {
         fontFamily: theme.fonts.text400,
         color: theme.colors.highlight,
     }

@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { View, FlatList, Text } from 'react-native';
+
 import { Profile } from "../../components/Profile";
 import { ButtonAdd } from "../../components/ButtoAdd";
 import { CategorySelect } from "../../components/CategorySelect";
 import { ListHeader } from "../../components/ListHeader";
+import { Appointments } from "../../components/Appointments";
+
 import { styles } from './styles';
 
 export function Home() {
@@ -41,9 +44,7 @@ export function Home() {
                         data={apointments}
                         keyExtractor={item => item.id}
                         renderItem={({ item }) => (
-                            <Text>
-                                {item.guild.name}
-                            </Text>
+                            <Appointments data={item}/>
                         )}
                     />
                 </View>
