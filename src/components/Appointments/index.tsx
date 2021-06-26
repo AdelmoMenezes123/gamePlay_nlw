@@ -11,7 +11,10 @@ import { categories } from '../../Utils/Categories';
 import { theme } from '../../global/styles/theme';
 
 export type GuildProps = {
-    owner: true
+    id: string,
+    name: string,
+    icon: null,
+    owner: boolean
 }
 
 export type AppointmentProps = {
@@ -39,7 +42,7 @@ export function Appointments({ data, ...rest }: Props) {
                 <View style={styles.content}>
                     <View style={styles.header}>
                         <Text style={styles.title}>
-                            {data.guild.name}
+                            {/* {data.guild.name} */}
                         </Text>
 
                         <Text style={styles.category}>
